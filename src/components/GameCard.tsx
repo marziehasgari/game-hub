@@ -1,5 +1,5 @@
 //LIBS
-import { Card, CardBody, HStack, Heading, Image, Text } from "@chakra-ui/react";
+import { Card, CardBody, HStack, Heading, Image } from "@chakra-ui/react";
 
 //HOOKS
 import { Game } from "../hooks/useGames";
@@ -17,7 +17,7 @@ interface Props {
 
 export const GameCard = ({ game }: Props) => {
   return (
-    <Card width='300px' borderRadius={10} overflow="hidden">
+    <Card>
       <Image src={getCroppedImageUrl(game.background_image)} />
       <CardBody>
         <Heading fontSize="2xl">{game.name}</Heading>
