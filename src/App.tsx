@@ -9,6 +9,7 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import GameGrid from "./components/GameGrid";
 import GenreList from "./components/GenreList";
+import PlatformSelector from "./components/PlatformSelector";
 
 //HOOKS
 import { Genre } from "./hooks/useGenres";
@@ -39,6 +40,7 @@ const App: React.FC = () => {
         </GridItem>
       </Show>
       <GridItem area="main">
+        <PlatformSelector />
         <GameGrid selectedGenre={selectedGenre} />
       </GridItem>
     </Grid>
