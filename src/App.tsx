@@ -15,7 +15,7 @@ import GameHeading from "./components/GameHeading";
 
 //HOOKS
 import { Genre } from "./hooks/useGenres";
-import { Platform } from "./hooks/useGames";
+import { Platform } from "./hooks/usePlatforms";
 
 export interface GameQuery {
   genre: Genre | null;
