@@ -7,12 +7,7 @@ import ApiClient from "../services/api-client";
 
 //DATA
 import platforms from "../data/platforms";
-
-export interface Platform {
-  id: number;
-  name: string;
-  slug: string;
-}
+import { Platform } from "../entities/Platform";
 
 const apiClient = new ApiClient<Platform>("/platforms/lists/parents");
 
