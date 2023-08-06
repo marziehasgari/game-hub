@@ -5,7 +5,7 @@ import CriticScore from "./CriticScore";
 //COMPONENTS
 import DefinitionItem from "./DefinitionItem";
 
-import { Game } from "../entities/Game";
+import Game from "../entities/Game";
 
 interface Props {
   game: Game;

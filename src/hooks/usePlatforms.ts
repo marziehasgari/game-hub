@@ -7,7 +7,8 @@ import ApiClient from "../services/api-client";
 
 //DATA
 import platforms from "../data/platforms";
-import { Platform } from "../entities/Platform";
+
+import  Platform  from "../entities/Platform";
 
 const apiClient = new ApiClient<Platform>("/platforms/lists/parents");
 

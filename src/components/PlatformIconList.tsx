@@ -13,8 +13,7 @@ import { MdPhoneIphone } from "react-icons/md";
 import { BsGlobe } from "react-icons/bs";
 import { IconType } from "react-icons";
 
-//HOOKS
-import { Platform } from "../entities/Platform";
+import Platform from "../entities/Platform";
 
 interface Props {
   platform: Platform[];

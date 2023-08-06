@@ -2,7 +2,7 @@
 import { Card, CardBody, HStack, Heading, Image } from "@chakra-ui/react";
 
 //HOOKS
-import { Game } from "../entities/Game";
+import Game from "../entities/Game";
 
 //COMPONENTS
 import PlatformIconList from "./PlatformIconList";

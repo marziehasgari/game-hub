@@ -8,7 +8,7 @@ import ApiClient, { FetchResponse } from "../services/api-client";
 //HOOKS
 
 import useGameQueryStore from "../store";
-import { Game } from "../entities/Game";
+import Game from "../entities/Game";
 
 const apiClient = new ApiClient<Game>("/games");
 
